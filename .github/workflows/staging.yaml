@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
-      SUPABASE_DB_PASSWORD: ${{ secrets.STAGING_DB_PASSWORD }}
-      SUPABASE_PROJECT_ID: ${{ secrets.STAGING_PROJECT_ID }}
+      SUPABASE_ACCESS_TOKEN: sbp_09106dca2ac806c1ba7c1f5dd1cf9566ef0c0cdc
+      SUPABASE_DB_PASSWORD: UezuijNg8UEYtjHR
+      SUPABASE_PROJECT_ID: zstylwlppyvznxvgxqfs
 
     steps:
       - uses: actions/checkout@v3
