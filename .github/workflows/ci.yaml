@@ -19,7 +19,7 @@ jobs:
         with:
           version: latest
 
-      - run: supabase  start
+      - run: supabase db start
       #- run: supabase db lint
       #- run: supabase test db
 
