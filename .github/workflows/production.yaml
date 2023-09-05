@@ -1,4 +1,4 @@
-name: Release
+name: Deploy Migrations to Production
 
 on:
   push:
@@ -7,13 +7,13 @@ on:
   workflow_dispatch:
 
 jobs:
-  release:
+  deploy:
     runs-on: ubuntu-latest
 
     env:
       SUPABASE_ACCESS_TOKEN: sbp_09106dca2ac806c1ba7c1f5dd1cf9566ef0c0cdc
-      SUPABASE_DB_PASSWORD: qO7qxmOxxHrdOTra
-      SUPABASE_PROJECT_ID: fqetjhujqynemqhejaui
+      SUPABASE_DB_PASSWORD: UezuijNg8UEYtjHR
+      SUPABASE_PROJECT_ID: zstylwlppyvznxvgxqfs
 
     steps:
       - uses: actions/checkout@v3
