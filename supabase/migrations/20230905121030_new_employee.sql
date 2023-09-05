@@ -1,3 +1,3 @@
-alter table "public"."employees" add column "please" text;
+alter table "public"."employees" add column "please" text; 
 
 
