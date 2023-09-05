@@ -1,4 +1,4 @@
-name: Deploy Migrations to Production
+name: Release
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  deploy:
+  release:
     runs-on: ubuntu-latest
 
     env:
