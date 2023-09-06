@@ -21,4 +21,4 @@ jobs:
         with:
           version: latest
 
-      - run: supabase functions deploy hello --project-ref $PROJECT_ID
+      - run: supabase functions deploy hello testhell --project-ref $PROJECT_ID
